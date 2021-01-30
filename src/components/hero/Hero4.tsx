@@ -1,7 +1,6 @@
 import { Button, Container, Fade, Grid, Typography } from "@material-ui/core";
 import React, { useState } from "react";
 import CustomizedTabs from "../customTab/customTabBar";
-import useBreakPoints from "../../hooks/useBreakPoints";
 const Hero4 = () => {
   const [to_show_index, set_to_show_index] = useState(0);
   return (
