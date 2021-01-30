@@ -125,18 +125,6 @@ const Features = ({
             {description}
           </div>
         </Grid>
-        <Grid item xs={12}>
-          <div
-            style={{
-              fontSize: 20,
-              fontFamily: "poppins",
-              marginTop: 20,
-              marginBottom: 20,
-            }}
-          >
-            {description}
-          </div>
-        </Grid>
         <Grid xs={12} container item>
           {menu.map((name) => {
             return (
