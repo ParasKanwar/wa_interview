@@ -1,0 +1,44 @@
+.arrow {
+  transition: all 0.25s;
+}
+
+.sign_up {
+  background: transparent;
+  border: 1px solid #000ff0;
+  padding: 15px 24px 15px 24px;
+  color: #000ff0;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: 600;
+  font-family: poppins;
+  border-radius: 5px;
+}
+
+.sign_up:hover .arrow {
+  transform: translateX(5px);
+}
+
+.schedule_a_demo {
+  padding: 15px 24px 15px 24px;
+  font-size: medium;
+  font-weight: 600;
+  font-family: poppins;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.25s;
+  background: #500ad2;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.18) 0,
+    rgba(0, 0, 0, 0.18) 100%
+  );
+}
+.schedule_a_demo:hover {
+  box-shadow: 0px 0px 0px transparent;
+}
+.schedule_a_demo:hover .arrow {
+  transform: translateX(5px);
+}
