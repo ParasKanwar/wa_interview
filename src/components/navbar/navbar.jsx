@@ -189,8 +189,6 @@ const NavbarMob = () => {
           width: "100%",
           height: "70px",
           background: "white",
-          position: "fixed",
-          top: 0,
           zIndex: 30,
         }}
       >
