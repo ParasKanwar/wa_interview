@@ -26,9 +26,23 @@ const Hero2 = () => {
           <div className={styles.base_scroll_div_hero2}>
             <div className={styles.scroll_container_div}>
               {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((i) => {
+                const imageArr = [
+                  "https://webstatic.chargebee.com/assets/web/351/images/case-study/harvestr/logo.png",
+                  "https://webstatic.chargebee.com/assets/web/351/images/case-study/drawboard/logo.svg",
+                  "https://webstatic.chargebee.com/assets/web/351/images/customers/logos/fishburners.png",
+                ];
                 return (
-                  <div key={i} style={{ margin: 20 }}>
-                    hello + {i}
+                  <div
+                    key={i}
+                    style={{
+                      margin: 20,
+                    }}
+                  >
+                    <img
+                      alt={"logo perhaps"}
+                      style={{ width: 150, marginRight: 20, marginLeft: 20 }}
+                      src={imageArr[i % imageArr.length]}
+                    ></img>
                   </div>
                 );
               })}
@@ -152,9 +166,10 @@ const Features = ({
             );
           })}
           <div className={styles.learnMore}>
-            Learn More
+            <div>Learn More</div>
             <ArrowForward
               fontSize="small"
+              style={{ transition: "0.25s all" }}
               className={styles.arrow_learn_more}
             ></ArrowForward>
           </div>

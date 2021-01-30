@@ -74,6 +74,7 @@ const Hero1 = () => {
             >
               Schedule a Demo
               <ArrowForwardOutlined
+                style={{ transition: "0.25s all" }}
                 className={styles.arrow}
               ></ArrowForwardOutlined>
             </div>
@@ -89,6 +90,7 @@ const Hero1 = () => {
               <div>Sign up for free</div>
 
               <ArrowForwardOutlined
+                style={{ transition: "0.25s all" }}
                 className={styles.arrow}
               ></ArrowForwardOutlined>
             </div>
