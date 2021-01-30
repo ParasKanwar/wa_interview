@@ -3,7 +3,7 @@ import Container from "@material-ui/core/Container";
 import { Grid } from "@material-ui/core";
 import styles from "./hero2.module.css";
 import useBreakPoints from "../../hooks/useBreakPoints";
-import { ArrowForward, ArrowRight, CheckOutlined } from "@material-ui/icons";
+import { ArrowForward, CheckOutlined } from "@material-ui/icons";
 import { green } from "@material-ui/core/colors";
 const Hero2 = () => {
   const deviceType = useBreakPoints();
